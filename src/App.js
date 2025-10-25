@@ -1,17 +1,27 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
-import Dashboard from "./pages/Dashboard";
-import Transacoes from "./pages/Transacoes";
-import Transferencia from "./pages/Transferencia";
+import React from "react";
+import "./App.css";
+import Dashboard from "./pages/Dashboard";  
+
+import Header from "./components/Header";
+
+
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/transacoes" element={<Transacoes />} />
-        <Route path="/transferencia" element={<Transferencia />} />
+        <Route
+          path="/dashboard"
+          element={
+            <>
+              <Header />
+              
+            </>
+          }
+        />
       </Routes>
     </BrowserRouter>
   );
