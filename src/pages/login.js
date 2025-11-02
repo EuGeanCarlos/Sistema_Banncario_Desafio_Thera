@@ -47,7 +47,7 @@ function Login() {
           </div>
           
           <div className="form-group">
-            <label>Password</label>
+            <label>Senha</label>
             <input
               type="password"
               name="password"
@@ -66,11 +66,11 @@ function Login() {
                 checked={rememberMe}
                 onChange={(e) => setRememberMe(e.target.checked)}
               />
-              <label htmlFor="rememberMe">Remember me</label>
+              <label htmlFor="rememberMe">lembre de mim </label>
             </div>
             
             <a href="#" className="forgot-password">
-              Forget Password?
+              Esqueceu a senha?
             </a>
           </div>
           
@@ -80,9 +80,9 @@ function Login() {
         </form>
         
         <p className="signup-link">
-          Don't have an account? 
+          Não tem uma conta? 
           <span onClick={() => navigate('/cadastro')}>
-            Sign Up
+            Cadastre-se
           </span>
         </p>
       </div>
