@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Sistema bancário — desafio Thera
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Frontend React com rotas de cadastro/login e backend Express com PostgreSQL. A autenticação depende de serviço externo; não há backend público confirmado para demonstração completa.
 
-## Available Scripts
+## Tecnologias
 
-In the project directory, you can run:
+- React
+- Create React App
+- React Router
+- Node.js
+- Express
+- PostgreSQL
 
-### `yarn start`
+## Funcionalidades e utilização
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Configure o banco e o backend em backend/; execute node index.js nessa pasta. Execute npm start na raiz para a interface. Não use credenciais reais em demonstrações.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Como executar
 
-### `yarn test`
+```bash
+git clone https://github.com/EuGeanCarlos/Sistema_Banncario_Desafio_Thera.git
+cd Sistema_Banncario_Desafio_Thera
+npm ci
+npm run start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Use Node.js 22.12 ou superior e o lockfile versionado. Para compilar, execute npm run build. Limitações descritas acima podem impedir o build.
 
-### `yarn build`
+## Demonstração e publicação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Execução local. Nenhuma demonstração nova foi confirmada nesta etapa.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+GitHub Pages hospeda arquivos estáticos e não executa Java, Node.js, PHP ou Python. As dependências de servidor deste projeto devem ser executadas em ambiente apropriado.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Estrutura versionada
 
-### `yarn eject`
+```text
+.gitignore
+README.md
+backend/package-lock.json
+backend/package.json
+backend/server.js
+package-lock.json
+package.json
+public/index.html
+public/manifest.json
+src/App.css
+src/App.js
+src/components/BalanceCard.js
+src/components/Header.js
+src/components/QuickActions.js
+src/components/Transacoes.js
+src/index.css
+src/index.js
+src/pages/Cadastro.js
+src/pages/Dashboard.js
+src/pages/login.js
+src/styles/Global.css
+yarn.lock
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Status
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Protótipo / projeto de estudo em desenvolvimento. A descrição acima distingue o que está implementado das dependências ou etapas pendentes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Autor e créditos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Gean Carlos** — estudante de Engenharia de Computação, UEMA.
 
-## Learn More
+[GitHub](https://github.com/EuGeanCarlos)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Licenças, autoria compartilhada e atribuições existentes no código e nos materiais originais permanecem aplicáveis.
