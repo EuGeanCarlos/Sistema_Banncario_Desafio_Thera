@@ -1,7 +1,6 @@
 // src/pages/Cadastro.js
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Login from './Login';
 
 function Cadastro() {
   const [formData, setFormData] = useState({

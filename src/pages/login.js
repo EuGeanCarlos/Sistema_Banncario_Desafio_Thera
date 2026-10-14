@@ -69,9 +69,9 @@ function Login() {
               <label htmlFor="rememberMe">lembre de mim </label>
             </div>
             
-            <a href="#" className="forgot-password">
+            <span className="forgot-password" title="Recuperação de senha ainda não implementada">
               Esqueceu a senha?
-            </a>
+            </span>
           </div>
           
           <button type="submit" className="btn btn-primary">

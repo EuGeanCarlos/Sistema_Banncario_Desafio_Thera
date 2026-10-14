@@ -13,7 +13,7 @@ Frontend React com rotas de cadastro/login e backend Express com PostgreSQL. A a
 
 ## Funcionalidades e utilização
 
-Configure o banco e o backend em backend/; execute node index.js nessa pasta. Execute npm start na raiz para a interface. Não use credenciais reais em demonstrações.
+Configure o banco e o backend em backend/; execute node server.js nessa pasta. Execute npm start na raiz para a interface. Não use credenciais reais em demonstrações.
 
 ## Como executar
 
@@ -70,3 +70,11 @@ Protótipo / projeto de estudo em desenvolvimento. A descrição acima distingue
 [GitHub](https://github.com/EuGeanCarlos)
 
 Licenças, autoria compartilhada e atribuições existentes no código e nos materiais originais permanecem aplicáveis.
+
+## Validação
+
+O comando de testes não encontrou casos versionados. O build foi executado com CI=true; imports e avisos de acessibilidade que impediam a compilação foram corrigidos. O backend público não foi identificado, por isso não há demonstração completa publicada.
+
+## Validação desta auditoria — 14/10/2026
+
+Sem publicação nova confirmada. npm ci aprovado. O comando npm test não encontrou testes (0 casos). Build em CI=true aprovado após corrigir import com caixa incompatível no Linux, import não usado e link sem destino. Backend PostgreSQL/Express público não identificado; nenhuma demonstração completa foi publicada.
